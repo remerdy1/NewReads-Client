@@ -1,0 +1,41 @@
+.container {
+    display: flex;
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.image {
+    width: 40vw;
+    border-radius: 8px;
+    box-shadow: 5px 5px 5px grey;
+}
+
+.section {
+    width: 50vw;
+    font-size: 1.25rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.popularReads {
+    margin-top: 5rem;
+    margin-left: 1rem;
+}
+
+@media only screen and (max-width: 1310px) {
+    .container {
+        flex-direction: column;
+        width: 100vw;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .popularReads {
+        margin-top: 2rem;
+    }
+
+    .image {
+        width: 60vw;
+    }
+}

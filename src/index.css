@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    letter-spacing: 0.5px;
+    font-family: "Cardo", serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Oswald", sans-serif;
+    font-size: 3rem;
+}
+
+img {
+    border-radius: 8px;
+    box-shadow: 5px 5px 5px grey;
+}
+
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+        'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+        sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+        monospace;
+}
+
+button {
+    height: 50px;
+    width: 100px;
+    margin: 1rem;
+    border: 2px solid transparent;
+    border-radius: 8px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.btnPrimary {
+    background-color: #0d6efd;
+    color: white;
+    transition: 0.5s;
+}
+
+.btnSecondary {
+    color: black;
+    background-color: transparent;
+    border: 2px solid #0d6efd;
+    transition: 0.5s;
+}
+
+.btnSecondary:hover {
+    background-color: #0d6efd;
+    border-color: transparent;
+    color: white;
+    transition: 0.5s;
+}
+
+.btnPrimary:hover {
+    background-color: transparent;
+    border: 2px solid #0d6efd;
+    color: black;
+    transition: 0.5s;
+}
+
+.btnPrimary:disabled,
+.btnPrimary:disabled:hover,
+.btnPrimary:disabled:active {
+    background-color: #ccc;
+    color: #292929;
+    border-color: #ccc;
+    cursor: not-allowed;
+}
+
+.carousel-img {
+    width: 20vw;
+}
+
+.error {
+    color: red;
+    font-weight: 800;
+}

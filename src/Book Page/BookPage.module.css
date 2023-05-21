@@ -1,0 +1,12 @@
+.container {
+    display: flex;
+    margin: 1rem;
+}
+
+.container>div {
+    width: 50%;
+}
+
+.section-two {
+    text-align: center;
+}

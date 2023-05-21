@@ -1,0 +1,10 @@
+.imageContainer {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.loginImage {
+    width: 20%;
+    box-shadow: none;
+}
